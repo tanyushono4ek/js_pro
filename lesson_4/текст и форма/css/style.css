@@ -1,0 +1,38 @@
+#first{
+    max-width: 25%;
+
+}
+
+
+input {
+    width: 200px;
+    border: 1px solid rgb(125, 86, 165);
+    border-radius: 1em;
+    background: transparent;
+    color: rgb(125, 86, 165);
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: 1px solid rgb(125, 86, 165);
+    border-radius: 1em;
+    background: transparent;
+    color: rgb(125, 86, 165);
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+.error_msg{
+    color: red;
+    margin: 3px 0;
+    font-size: small;
+}
+.invalid{
+    border: 2px solid red;
+}
+.valid{
+    border: 2px solid green;
+}
